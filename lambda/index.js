@@ -241,9 +241,9 @@ const ErrorHandler = {
  * */
 exports.handler = Alexa.SkillBuilders.custom()
     .addRequestHandlers(
+        LaunchRequestHandler,
         TripIntnetHandler,
         YesNoIntentHandler,
-        LaunchRequestHandler,
         HelloWorldIntentHandler,
         HelpIntentHandler,
         CancelAndStopIntentHandler,
